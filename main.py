@@ -4,7 +4,7 @@ def saludar(nombre: str) -> str:
     if not nombre_limpio:
         return "Hola, mundo!"
 
-    return f"Hola, {nombre_limpio}!"
+    return f"Hola, {nombre_limpio}! Bienvenido a mi primer repo en GitHub."
 
 
 def main() -> None:
@@ -14,3 +14,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
