@@ -32,3 +32,9 @@ Subir cambios a GitHub:
 ```powershell
 git push
 ```
+
+## Seguridad
+
+- `.env`, entornos virtuales y archivos generados estan ignorados por Git.
+- GitHub Actions compila los archivos Python en cada push y pull request.
+- Dependabot revisa las acciones de GitHub cada semana.
